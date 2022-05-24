@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 
 <head>
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8">
     <link rel="stylesheet" href="../css/login.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -11,54 +11,75 @@
 </head>
 
 <body>
-
-
     <header>
 
-        <nav class="banner-logo">
-            <div class="GameFinderLogo">
-                <img src="../img/GAMEFINDER.png" alt="logo">
-            </div>
+        <div class="background-image">
+            <img src="../img/BG.png" alt="background">
+        </div>
 
-            <div class="logo-rectangle">
+        <div class="home-banner-logo">
+            <div class="home-logo-rectangle">
                 <img src="../img/Rectangle 288.png" alt="logo-rectangle">
+                <div class="GameFinderLogo">
+                    <img src="../img/GAMEFINDER.png" alt="logo">
+                </div>
             </div>
-
-        </nav>
+        </div>
 
     </header>
 
+    <section class="login">
+        <div class="bg-box">
+            <img src="../img/bg-box.png" alt="login-background">
 
+            <div class="container">
+                <div class="login-form">
 
+                    <h2>Welcome! Log in or register</h2>
+                    <h3>Log in to find the games you're looking for!</h3>
+                    <form>
+                        <label for="email"></label>
+                        <input type="text" id="email" name="email" placeholder="Email" required> <br><br>
+                        <div class=password-input>
+                            <label for="password"></label>
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                            <br><br>
+                            <img src="../icons/passwordicon.svg">
+                        </div>
+                        <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                        <label for="rememberMe">Remember me</label> <br>
 
-    <div class="background-image">
-        <img src="../img/BG.png" alt="background">
-    </div>
+                        <p> Forgot password?</p>>
 
-    <section class="login-form">
-        <h2>Welcome! Log in or register</h2>
-        <h3>Log in to find the games you're looking for!</h3>
-        <form>
-            <label for="email"></label>
-            <input type="text" id="email" name="email" placeholder="Email" required> <br><br>
+                        <button type="submit" form="loginform" value="submit">Log in</button>
 
-            <label for="password"></label>
-            <input type="password" id="password" name="password" placeholder="Password" required> <br><br>
+                        <p>Not registered yet?</p><span style="color:
+                            #5FE19B">Register now</span>
 
-            <input type="checkbox" value="lsRememberMe" id="rememberMe">
-            <label for="rememberMe">Remember me</label>
+                        <hr><span>or</span>
+                        <hr>
 
-        </form>
+                        <div class="facebook-btn">
+                            <button type="submit" form="loginform" value="submit">
+                                <img src="../icons/FacebookVector.svg">Login with Facebook</button>
+                        </div>
+
+                        <div class="twitter-btn">
+                            <button type="submit" form="loginform" value="submit">
+                                <img src="../icons/TwitterVector.svg">Login with Twitter</button>
+                        </div>
+
+                        <div class="google-btn">
+                            <button type="submit" form="loginform" value="submit">
+                                <img src="../icons/GoogleVector.svg">Login with Google</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
 
     </section>
 
-    <div class="login-background">
-        <img src="../img/bg-box.png" alt="login-background">
-    </div>
-
-    <div class="logo-rectangle">
-        <img src="../img/Rectangle 288.png" alt="logo-rectangle">
-    </div>
 
 </body>
 
