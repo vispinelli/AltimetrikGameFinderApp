@@ -11,12 +11,8 @@
 </head>
 
 <body>
-    <header>
 
-        <div class="background-image">
-            <img src="../img/BG.png" alt="background">
-        </div>
-
+    <div class="bg-box">
         <div class="home-banner-logo">
             <div class="home-logo-rectangle">
                 <img src="../img/Rectangle 288.png" alt="logo-rectangle">
@@ -25,13 +21,7 @@
                 </div>
             </div>
         </div>
-
-    </header>
-
-    <section class="login">
-        <div class="bg-box">
-            <img src="../img/bg-box.png" alt="login-background">
-
+        <div class="right-side">
             <div class="container">
                 <div class="login-form">
 
@@ -43,18 +33,22 @@
                         <div class=password-input>
                             <label for="password"></label>
                             <input type="password" id="password" name="password" placeholder="Password" required>
-                            <br><br>
-                            <img src="../icons/passwordicon.svg">
+                            <div class="eye-icon"><img src="../icons/passwordicon.svg"></div>
                         </div>
-                        <input type="checkbox" value="lsRememberMe" id="rememberMe">
-                        <label for="rememberMe">Remember me</label> <br>
+                        <div class="remember-me"> <input type="checkbox" value="lsRememberMe" id="rememberMe">
+                            <label for="rememberMe">Remember me</label>
+                        </div>
 
-                        <p> Forgot password?</p>>
 
-                        <button type="submit" form="loginform" value="submit">Log in</button>
+                        <p id="forgot-pass"> Forgot password?</p>
 
-                        <p>Not registered yet?</p><span style="color:
-                            #5FE19B">Register now</span>
+                        <div class="login-btn">
+                            <button type="submit" form="loginform" value="submit">Log in</button>
+                        </div>
+
+
+                        <p id="not-registered">Not registered yet?</p>
+                        <P id="register-now">Register now</P>
 
                         <hr><span>or</span>
                         <hr>
@@ -77,8 +71,9 @@
 
                 </div>
             </div>
+        </div>
 
-    </section>
+
 
 
 </body>
