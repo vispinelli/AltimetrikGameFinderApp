@@ -1,308 +1,347 @@
- .home-banner-logo {
-     position: absolute;
+.home-banner-logo {
+    position: absolute;
 
-     left: 53.23%;
-     right: 1147.23%;
-     top: 44.27%;
-     bottom: 980.27%;
-     color: #FFFFFF;
-     height: 37px;
-     width: 293px;
-     left: 45px;
-     top: 28px;
-     border-radius: 0px;
+    left: 53.23%;
+    right: 1147.23%;
+    top: 44.27%;
+    bottom: 980.27%;
+    color: #FFFFFF;
+    height: 37px;
+    width: 293px;
+    left: 45px;
+    top: 28px;
+    border-radius: 0px;
 
- }
+}
 
- .logo-rectangle {
-     position: relative;
-     left: 45px;
-     right: 0%;
-     top: 28%;
-     bottom: 0%;
-     height: 66px;
-     width: 322px;
-     border-radius: 0px;
+.logo-rectangle {
+    position: relative;
+    left: 45px;
+    right: 0%;
+    top: 28%;
+    bottom: 0%;
+    height: 66px;
+    width: 322px;
+    border-radius: 0px;
 
- }
-
-
-
- .bg-box {
-     display: flex;
-     justify-content: space-between;
-     align-items: center;
-     position: absolute;
-     left: 0px;
-     top: 0px;
-     width: 100%;
-     height: 100%;
-     background-image: url(../img/BG.png);
-     background-color: #C4C4C4;
-     background-size: cover;
-
- }
-
- .right-side {
-     display: flex;
-     align-items: center;
-     justify-content: center;
- }
-
- .container {
-     position: relative;
-     left: 900px;
-     width: 462px;
-     height: 702px;
-     margin-bottom: 5px;
-     backdrop-filter: blur(10px);
-     background-color: rgba(0, 0, 0, 0.5);
-     border-radius: 12px;
- }
-
- .login-form {
-     position: absolute;
-     top: 40px;
-     right: 50px;
-     left: 50px;
-     display: flex;
-     flex-direction: column;
-     align-items: center;
-     font-style: normal;
-     font-weight: 400;
-     color: #FFFFFF;
- }
-
- h2 {
-     color: #FFFFFF;
-     font-weight: 700;
-     font-family: 'Exo', sans-serif;
-     font-size: 18px;
-     position: relative;
-     bottom: 15px;
-
- }
-
- h3 {
-     color: #FFFFFF;
-     font-weight: 400;
-     font-family: 'Exo', sans-serif;
-     font-size: 16px;
-     position: relative;
-     bottom: 30px;
- }
-
- .email-input {
-     padding: 15px 109px;
-     margin: 2px 0;
-     box-sizing: border-box;
-     border-radius: 6px;
-     position: relative;
-     bottom: 16px;
-     right: 6px;
-
- }
-
- .password-input {
-     position: relative;
-     display: flex;
-     align-items: center;
-     justify-content: flex-end;
-     width: inherit;
-     bottom: 20px;
-     right: 3px;
- }
-
- .eye-icon {
-     position: absolute;
-     right: 16px;
-     bottom: 14px;
- }
-
-
- input[type=password] {
-     padding: 15px 108px;
-     margin: 2px 0;
-     box-sizing: border-box;
-     border-radius: 6px;
-     position: relative;
-     right: 5px;
-
- }
-
- ::placeholder {
-     font-size: 16px;
-     color: #b5b3b3;
-     position: relative;
-     right: 85px;
-     top: 2px;
-     font-weight: 100;
- }
-
- .checkbox-input {
-     /* border-color: #FFFFFF; */
-
-     height: 20px;
-     width: 20px;
-     margin-top: 10px;
-     position: relative;
-     bottom: 20px;
-     border: 2px solid #FFFFFF;
-     box-sizing: border-box;
-     border-radius: 10px;
- }
-
- .remember-me {
-     font-family: 'Exo', sans-serif;
-     font-size: 14px;
-     font-weight: 400;
-     position: relative;
-     left: 35px;
-     bottom: 42px;
-
- }
-
- #forgot-pass {
-     font-family: 'Exo', sans-serif;
-     font-size: 14px;
-     position: relative;
-     left: 240px;
-     bottom: 77px;
-     color: #5FE19B;
- }
-
- .login-btn {
-     padding: 11px 155px;
-     margin: 2px 0;
-     box-sizing: border-box;
-     border-radius: 8px;
-     background-color: #31C37F;
-     border-color: #31C37F;
-     position: relative;
-     right: 4px;
-     bottom: 70px;
-     font-family: 'Exo', sans-serif;
-     color: #FFFFFF;
-     font-size: 17px;
-     font-weight: 600;
-     white-space: nowrap;
-     overflow: hidden;
-     text-overflow: ellipsis;
-
-
- }
-
- #not-registered {
-     font-family: 'Exo', sans-serif;
-     font-size: 14px;
-     position: relative;
-     left: 70px;
-     bottom: 50px;
-
- }
-
- #register-now {
-     font-family: 'Exo', sans-serif;
-     font-size: 14px;
-     color: #5FE19B;
-     position: relative;
-     left: 200px;
-     bottom: 82.5px;
-
- }
-
- #hr-1 {
-     width: 147.44px;
-     position: relative;
-     right: 110px;
-     color: #585858;
-     bottom: 65px;
-
- }
-
- #span-or {
-     position: relative;
-     left: 170px;
-     bottom: 85px;
-     font-family: 'Exo', sans-serif;
-     font-size: 14px;
-     color: #585858;
-
- }
-
- #hr-2 {
-     width: 147.44px;
-     position: relative;
-     left: 100px;
-     bottom: 102px;
-     color: #585858;
-
- }
-
-
- .facebook-btn {
-     display: inline-flex;
-     height: 45px;
-     width: 350px;
-     background: rgba(0, 0, 0, 0.5);
-     border: 2px solid #FFFFFF;
-     border-radius: 5px;
-     position: relative;
-     bottom: 75px;
-     color: #FFFFFF;
-     font-weight: 600;
-     font-size: 18px;
-     font-family: 'Exo', sans-serif;
-     justify-content: center;
-     align-items: center;
- }
-
- .facebook-icon {
-     margin-right: 20px;
- }
-
- .twitter-btn {
-     display: inline-flex;
-     height: 45px;
-     width: 350px;
-     background: rgba(0, 0, 0, 0.5);
-     border: 2px solid #FFFFFF;
-     border-radius: 5px;
-     position: relative;
-     bottom: 50px;
-     color: #FFFFFF;
-     font-family: 'Exo', sans-serif;
-     font-weight: 600;
-     font-size: 18px;
-     justify-content: center;
-     align-items: center;
- }
-
- .twitter-icon {
-     margin-right: 35px;
- }
+}
 
 
 
+.bg-box {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/BG.png);
+    background-color: #C4C4C4;
+    background-size: cover;
 
- .google-btn {
-     display: inline-flex;
-     height: 45px;
-     width: 350px;
-     background: rgba(0, 0, 0, 0.5);
-     border: 2px solid #FFFFFF;
-     border-radius: 5px;
-     position: relative;
-     bottom: 26px;
-     color: #FFFFFF;
-     font-family: 'Exo', sans-serif;
-     font-weight: 600;
-     font-size: 18px;
-     justify-content: center;
-     align-items: center;
+}
 
- }
+.right-side {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
- .google-icon {
-     margin-right: 35px;
- }
+.container {
+    position: relative;
+    left: 900px;
+    width: 462px;
+    height: 702px;
+    margin-bottom: 5px;
+    backdrop-filter: blur(10px);
+    background-color: rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+}
+
+.login-form {
+    position: absolute;
+    top: 40px;
+    right: 50px;
+    left: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-style: normal;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+h2 {
+    color: #FFFFFF;
+    font-weight: 700;
+    font-family: 'Exo', sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 15px;
+
+}
+
+h3 {
+    color: #FFFFFF;
+    font-weight: 400;
+    font-family: 'Exo', sans-serif;
+    font-size: 16px;
+    position: relative;
+    bottom: 30px;
+}
+
+.email-input {
+    padding: 15px 109px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    bottom: 16px;
+    right: 6px;
+
+}
+
+.password-input {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: inherit;
+    bottom: 20px;
+    right: 3px;
+}
+
+.eye-icon {
+    position: absolute;
+    right: 16px;
+    bottom: 14px;
+}
+
+
+input[type=password] {
+    padding: 15px 108px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border-radius: 6px;
+    position: relative;
+    right: 5px;
+
+}
+
+::placeholder {
+    font-size: 16px;
+    color: #b5b3b3;
+    position: relative;
+    right: 85px;
+    top: 2px;
+    font-weight: 100;
+}
+
+.checkbox-input {
+    /* border-color: #FFFFFF; */
+
+    height: 20px;
+    width: 20px;
+    margin-top: 10px;
+    position: relative;
+    bottom: 20px;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    border-radius: 10px;
+}
+
+.remember-me {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    position: relative;
+    left: 35px;
+    bottom: 42px;
+
+}
+
+#forgot-pass {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 240px;
+    bottom: 77px;
+    color: #5FE19B;
+}
+
+.login-btn {
+    padding: 11px 155px;
+    margin: 2px 0;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background-color: #31C37F;
+    border-color: #31C37F;
+    position: relative;
+    right: 4px;
+    bottom: 70px;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    font-size: 17px;
+    font-weight: 600;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+
+}
+
+#not-registered {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    position: relative;
+    left: 70px;
+    bottom: 50px;
+
+}
+
+#register-now {
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    color: #5FE19B;
+    position: relative;
+    left: 200px;
+    bottom: 82.5px;
+
+}
+
+#hr-1 {
+    width: 147.44px;
+    position: relative;
+    right: 110px;
+    color: #585858;
+    bottom: 65px;
+
+}
+
+#span-or {
+    position: relative;
+    left: 170px;
+    bottom: 85px;
+    font-family: 'Exo', sans-serif;
+    font-size: 14px;
+    color: #585858;
+
+}
+
+#hr-2 {
+    width: 147.44px;
+    position: relative;
+    left: 100px;
+    bottom: 102px;
+    color: #585858;
+
+}
+
+
+.facebook-btn {
+    display: inline-flex;
+    height: 45px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    bottom: 75px;
+    color: #FFFFFF;
+    font-weight: 600;
+    font-size: 18px;
+    font-family: 'Exo', sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.facebook-icon {
+    margin-right: 20px;
+}
+
+.twitter-btn {
+    display: inline-flex;
+    height: 45px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    bottom: 50px;
+    color: #FFFFFF;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+}
+
+.twitter-icon {
+    margin-right: 35px;
+}
+
+
+
+
+.google-btn {
+    display: inline-flex;
+    height: 45px;
+    width: 350px;
+    background: rgba(0, 0, 0, 0.5);
+    border: 2px solid #FFFFFF;
+    border-radius: 5px;
+    position: relative;
+    bottom: 26px;
+    color: #FFFFFF;
+    font-family: 'Exo', sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.google-icon {
+    margin-right: 35px;
+}
+
+.carrousel-slider {
+    position: relative;
+    right: 670px;
+    top: 540px;
+}
+
+.slider-dots {
+    position: relative;
+    bottom: 20px;
+    left: 2px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.left-chevron-container {
+    position: relative;
+    top: 40px;
+    right: 1290px;
+
+}
+
+.right-chevron-container {
+    position: relative;
+    bottom: 20px;
+    left: 60px;
+}
+
+.left-chevron {
+    position: relative;
+    bottom: 44.5px;
+    right: 1276px;
+}
+
+.right-chevron {
+    position: relative;
+    bottom: 82px;
+    left: 77px;
+}
