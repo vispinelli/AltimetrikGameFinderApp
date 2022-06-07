@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="../css/login.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Exo:wght@100;300;400;500;600;700;800;900&display=swap"
+        rel="stylesheet">
+    <title>GameFinder - Login</title>
+</head>
+
+<body>
+
+
+    <div class="home-banner-logo">
+        <img src="../img/GAMEFINDER.png" alt="logo">
+    </div>
+
+    <div class="right-side">
+        <div class="container">
+            <div class="login-form">
+
+                <h2>Welcome! Log in or register</h2>
+                <h3>Log in to find the games you're looking for!</h3>
+                <form>
+                    <label for="email"></label>
+                    <input type="text" id="email" name="email" placeholder="Email" required class="email-input">
+                    <br><br>
+                    <div class="password-input">
+                        <label for="password"></label>
+                        <input type="password" id="password" name="password" placeholder="Password" required>
+                        <div class="eye-icon"><img src="../icons/passwordicon.svg"></div>
+                    </div>
+                    <input type="checkbox" value="lsRememberMe" id="rememberMe" class="checkbox-input">
+                    <div class="remember-me">
+                        <label for="rememberMe">Remember me</label>
+                    </div>
+
+
+                    <p id="forgot-pass"> Forgot password?</p>
+
+
+                    <button type="submit" form="loginform" value="submit" class="login-btn">Log in</button>
+
+
+
+                    <p id="not-registered">Not registered yet?</p>
+                    <P id="register-now">Register now</P>
+                    <div class="hr-separation">
+                        <hr id="hr-1"><span id="span-or">or</span>
+                        <hr id="hr-2">
+                    </div>
+
+                    <div class="container-social-media">
+
+                        <button type="button" form="loginform" value="submit" class="facebook-btn">
+                            <div class="facebook-icon"> <img src="../icons/FacebookVector.svg"></div>
+                            <div class="facebook-login-btn"> Login with
+                                Facebook</div>
+                        </button>
+
+
+
+                        <button type="button" form="loginform" value="submit" class="twitter-btn">
+                            <div class="twitter-icon"> <img src="../icons/TwitterVector.svg"></div>
+                            <div class="twitter-login-btn">Login with
+                                Twitter</div>
+                        </button>
+
+
+
+                        <button type="button" form="loginform" value="submit" class="google-btn">
+                            <div class="google-icon"><img src="../icons/GoogleVector.svg"></div>
+                            <div class="google-login-btn">Login with Google</div>
+                        </button>
+
+                    </div>
+
+                </form>
+
+            </div>
+        </div>
+    </div>
+    <!-- Carrousel Section -->
+    <div id="home-slideshow">
+        <div class="carrousel-slider">
+            <div class="rectangle-slider">
+                <img src="../icons/Rectangle-slideshow.png">
+            </div>
+            <div class="slider-dots">
+                <img src="../icons/slideshow-dot.png">
+                <img src="../icons/slideshow-dot.png">
+                <img src="../icons/slideshow-dot.png">
+                <img src="../icons/slideshow-dot.png">
+                <img src="../icons/slideshow-dot.png">
+                <img src="../icons/slideshow-dot.png">
+            </div>
+        </div>
+        <div class="slider-chevrons">
+            <div class="chevron-container">
+                <div class="left-chevron-container">
+                    <img src="../icons/Ellipse 1.png">
+                </div>
+                <div class="right-chevron-container">
+                    <img src="../icons/Ellipse 1.png">
+                </div>
+
+            </div>
+            <div class="chevrons">
+                <div class="left-chevron">
+                    <img src="../icons/left-chevron.png">
+                </div>
+                <div class="right-chevron">
+                    <img src="../icons/right-chevron.png">
+                </div>
+            </div>
+        </div>
+</body>
+
+</html>
