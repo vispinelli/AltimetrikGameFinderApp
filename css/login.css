@@ -1,46 +1,17 @@
-.home-banner-logo {
-    position: absolute;
-
-    left: 53.23%;
-    right: 1147.23%;
-    top: 44.27%;
-    bottom: 980.27%;
-    color: #FFFFFF;
-    height: 37px;
-    width: 293px;
-    left: 45px;
-    top: 28px;
-    border-radius: 0px;
-
-}
-
-.logo-rectangle {
-    position: relative;
-    left: 45px;
-    right: 0%;
-    top: 28%;
-    bottom: 0%;
-    height: 66px;
-    width: 322px;
-    border-radius: 0px;
-
-}
-
-
-
-.bg-box {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    width: 100%;
-    height: 100%;
+body {
     background-image: url(../img/BG.png);
-    background-color: #C4C4C4;
-    background-size: cover;
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
 
+.home-banner-logo {
+
+    box-sizing: content-box;
+    padding-left: 45px;
+    padding-top: 27px;
+    width: 293px;
+    height: 37.46px;
 }
 
 .right-side {
@@ -51,7 +22,8 @@
 
 .container {
     position: relative;
-    left: 900px;
+    left: 420px;
+    top: 100px;
     width: 462px;
     height: 702px;
     margin-bottom: 5px;
@@ -61,7 +33,7 @@
 }
 
 .login-form {
-    position: absolute;
+
     top: 40px;
     right: 50px;
     left: 50px;
@@ -79,7 +51,8 @@ h2 {
     font-family: 'Exo', sans-serif;
     font-size: 18px;
     position: relative;
-    bottom: 15px;
+    top: 20px;
+    bottom: 10px;
 
 }
 
@@ -89,7 +62,8 @@ h3 {
     font-family: 'Exo', sans-serif;
     font-size: 16px;
     position: relative;
-    bottom: 30px;
+    top: 7px;
+    bottom: 10px;
 }
 
 .email-input {
@@ -98,8 +72,10 @@ h3 {
     box-sizing: border-box;
     border-radius: 6px;
     position: relative;
+    top: 30px;
     bottom: 16px;
-    right: 6px;
+    left: 45px;
+
 
 }
 
@@ -109,16 +85,16 @@ h3 {
     align-items: center;
     justify-content: flex-end;
     width: inherit;
-    bottom: 20px;
-    right: 3px;
+    bottom: 10px;
+    right: 45px;
 }
 
 .eye-icon {
     position: absolute;
     right: 16px;
-    bottom: 14px;
+    bottom: 5px;
+    top: 48px;
 }
-
 
 input[type=password] {
     padding: 15px 108px;
@@ -127,6 +103,7 @@ input[type=password] {
     border-radius: 6px;
     position: relative;
     right: 5px;
+    top: 30px;
 
 }
 
@@ -140,11 +117,10 @@ input[type=password] {
 }
 
 .checkbox-input {
-    /* border-color: #FFFFFF; */
-
     height: 20px;
     width: 20px;
-    margin-top: 10px;
+    margin-top: 50px;
+    margin-left: 50px;
     position: relative;
     bottom: 20px;
     border: 2px solid #FFFFFF;
@@ -157,8 +133,9 @@ input[type=password] {
     font-size: 14px;
     font-weight: 400;
     position: relative;
-    left: 35px;
-    bottom: 42px;
+    padding-left: 80px;
+
+    bottom: 40px;
 
 }
 
@@ -166,19 +143,21 @@ input[type=password] {
     font-family: 'Exo', sans-serif;
     font-size: 14px;
     position: relative;
-    left: 240px;
-    bottom: 77px;
+
+    bottom: 75px;
+    padding-left: 294px;
     color: #5FE19B;
 }
 
 .login-btn {
-    padding: 11px 155px;
+    padding: 10.5px 155px;
     margin: 2px 0;
     box-sizing: border-box;
     border-radius: 8px;
     background-color: #31C37F;
     border-color: #31C37F;
     position: relative;
+    left: 48px;
     right: 4px;
     bottom: 70px;
     font-family: 'Exo', sans-serif;
@@ -188,16 +167,14 @@ input[type=password] {
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
-
-
 }
 
 #not-registered {
     font-family: 'Exo', sans-serif;
     font-size: 14px;
     position: relative;
-    left: 70px;
-    bottom: 50px;
+    padding-left: 120px;
+    bottom: 55px;
 
 }
 
@@ -206,24 +183,28 @@ input[type=password] {
     font-size: 14px;
     color: #5FE19B;
     position: relative;
-    left: 200px;
-    bottom: 82.5px;
+    bottom: 88px;
+    padding-left: 255px;
+}
 
+.hr-separation {
+    position: relative;
+    bottom: 10px;
 }
 
 #hr-1 {
     width: 147.44px;
     position: relative;
-    right: 110px;
+    right: 108px;
     color: #585858;
-    bottom: 65px;
+    bottom: 60px;
 
 }
 
 #span-or {
     position: relative;
-    left: 170px;
-    bottom: 85px;
+    left: 220px;
+    bottom: 80px;
     font-family: 'Exo', sans-serif;
     font-size: 14px;
     color: #585858;
@@ -233,115 +214,158 @@ input[type=password] {
 #hr-2 {
     width: 147.44px;
     position: relative;
-    left: 100px;
-    bottom: 102px;
+    left: 105px;
+    bottom: 98px;
     color: #585858;
 
 }
 
-
 .facebook-btn {
     display: inline-flex;
-    height: 45px;
-    width: 350px;
+    height: 42px;
+
+    box-sizing: content-box;
+    width: 77%;
+
     background: rgba(0, 0, 0, 0.5);
     border: 2px solid #FFFFFF;
     border-radius: 5px;
     position: relative;
-    bottom: 75px;
+    left: 43px;
+    bottom: 80px;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
     font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .facebook-icon {
-    margin-right: 20px;
+    margin-right: 40px;
+}
+
+.facebook-login-btn {
+    position: relative;
+    right: 20px;
 }
 
 .twitter-btn {
+
     display: inline-flex;
-    height: 45px;
-    width: 350px;
+    height: 42px;
+
+    box-sizing: content-box;
+    width: 77%;
+
     background: rgba(0, 0, 0, 0.5);
     border: 2px solid #FFFFFF;
     border-radius: 5px;
     position: relative;
-    bottom: 50px;
+    left: 40px;
+    bottom: 70px;
     color: #FFFFFF;
-    font-family: 'Exo', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
+    margin-bottom: 10px;
 }
 
 .twitter-icon {
-    margin-right: 35px;
+    margin-right: 56px;
 }
 
-
-
+.twitter-login-btn {
+    position: relative;
+    right: 30px;
+}
 
 .google-btn {
     display: inline-flex;
-    height: 45px;
-    width: 350px;
+    height: 42px;
+
+    box-sizing: content-box;
+    width: 77%;
+
     background: rgba(0, 0, 0, 0.5);
     border: 2px solid #FFFFFF;
     border-radius: 5px;
     position: relative;
-    bottom: 26px;
+    left: 40px;
+    bottom: 70px;
     color: #FFFFFF;
-    font-family: 'Exo', sans-serif;
     font-weight: 600;
     font-size: 18px;
+    font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
+    margin-top: 10px;
 
 }
 
 .google-icon {
-    margin-right: 35px;
+    margin-right: 56px;
+}
+
+.google-login-btn {
+    position: relative;
+    right: 30px;
 }
 
 .carrousel-slider {
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
     position: relative;
-    right: 670px;
-    top: 540px;
+    top: 185px;
+    padding-left: 120px;
+
 }
+
 
 .slider-dots {
     position: relative;
-    bottom: 20px;
-    left: 2px;
-    display: flex;
-    justify-content: space-around;
+    right: 90px;
+    bottom: 10px;
 }
 
 .left-chevron-container {
     position: relative;
-    top: 40px;
-    right: 1290px;
+    bottom: 300px;
+    padding-left: 20px;
+    /* right: 1290px;  */
 
 }
 
 .right-chevron-container {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
-    bottom: 20px;
-    left: 60px;
+    bottom: 350px;
+    right: 15px;
+
 }
 
 .left-chevron {
+    display: flex;
+    justify-content: flex-start;
+
     position: relative;
-    bottom: 44.5px;
-    right: 1276px;
+    bottom: 380px;
+    padding-left: 32px;
+
 }
 
 .right-chevron {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
     position: relative;
-    bottom: 82px;
-    left: 77px;
+    bottom: 405px;
+    right: 27px;
+
 }
