@@ -72,3 +72,136 @@ body {
     bottom: 155px;
     right: 20px;
 }
+
+.page-heading {
+    position: relative;
+    bottom: 150px;
+    padding-left: 30px;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+
+}
+
+#first-heading {
+    font-size: 24px;
+
+}
+
+#second-heading {
+    position: relative;
+    bottom: 20px;
+    font-size: 18px;
+    font-weight: 300;
+
+
+
+}
+
+.sidenav {
+    position: relative;
+    bottom: 150px;
+    padding-left: 30px;
+
+}
+
+
+#home-sidenav {
+    color: #5FE19B;
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.first-side a:link {
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 700;
+    font-size: 20px;
+    position: relative;
+    bottom: 10px;
+}
+
+
+.second-side a:link {
+    position: relative;
+    bottom: 2px;
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-size: 18px;
+
+}
+
+
+.second-side {
+    position: relative;
+    top: -10px;
+    padding-left: 28px;
+}
+
+
+.star-icon {
+    position: relative;
+    right: 26px;
+    top: 25px;
+}
+
+
+.calendar-icon {
+    position: relative;
+    right: 25px;
+    top: 26px;
+}
+
+
+.clock-icon {
+    position: relative;
+    right: 25px;
+    top: 27px;
+}
+
+
+#popular {
+    font-family: 'Exo', sans-serif;
+    font-weight: 700;
+    font-size: 22px;
+    color: #FFFFFF;
+    position: relative;
+    top: -15px;
+}
+
+
+.third-side {
+    position: relative;
+    bottom: 40px;
+    padding-left: 30px;
+}
+
+
+.third-side a:link {
+    position: relative;
+
+    font-family: 'Exo', sans-serif;
+    color: #FFFFFF;
+    text-decoration: none;
+    font-weight: 300;
+    font-size: 18px;
+}
+
+
+.loupe-icon {
+    position: relative;
+    right: 25px;
+    top: 25px;
+}
+
+
+.hand-icon {
+    position: relative;
+    right: 23px;
+    top: 28px;
+}
