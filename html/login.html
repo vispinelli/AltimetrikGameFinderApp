@@ -25,15 +25,21 @@
 
                 <h2>Welcome! Log in or register</h2>
                 <h3>Log in to find the games you're looking for!</h3>
-                <form>
+                <form action="../js/validations.js" method="post" class="form" name="form">
                     <label for="email"></label>
-                    <input type="text" id="email" name="email" placeholder="Email" required class="email-input">
+                    <input type="text" id="email" name="email" placeholder="Email" class="email-input">
                     <br><br>
-                    <div class="password-input">
-                        <label for="password"></label>
-                        <input type="password" id="password" name="password" placeholder="Password" required>
-                        <div class="eye-icon"><img src="../icons/passwordicon.svg"></div>
-                    </div>
+                    <label for="password"></label>
+                    <input type="password" id="password" name="password" placeholder="Password" class="password-input"
+                        required>
+                    <div class="eye-icon"><img id="eye-icon" src="../icons/passwordicon.svg"></div>
+
+                    <script type="module">
+                        import { setEyeIconStyle } from '../js/view.js'
+                        document.querySelector('#eye-icon').addEventListener('click', () => setEyeIconStyle(true))
+
+                    </script>
+
                     <input type="checkbox" value="lsRememberMe" id="rememberMe" class="checkbox-input">
                     <div class="remember-me">
                         <label for="rememberMe">Remember me</label>
@@ -43,9 +49,12 @@
                     <p id="forgot-pass"> Forgot password?</p>
 
 
-                    <button type="submit" form="loginform" value="submit" class="login-btn">Log in</button>
+                    <button type="submit" form="loginform" value="submit" class="login-btn" id="login">Log in</button>
 
-
+                    <script type="module">
+                        import { validateCredentials } from '../js/validations.js'
+                        document.querySelector('#login').addEventListener('click', () => validateCredentials(document.form.email, document.form.password))
+                    </script>
 
                     <p id="not-registered">Not registered yet?</p>
                     <P id="register-now">Register now</P>
@@ -118,6 +127,7 @@
                 </div>
             </div>
         </div>
+        <script type="module" src="../js/validations.js"></script>
 </body>
 
 </html>
