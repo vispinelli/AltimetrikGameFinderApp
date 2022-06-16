@@ -66,13 +66,20 @@ h3 {
     bottom: 10px;
 }
 
-.email-input {
-    padding: 15px 109px;
-    margin: 2px 0;
+.email-input,
+.password-input {
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    position: relative;
+    height: 48px;
+    width: 362px;
+    padding-left: 20px;
     box-sizing: border-box;
     border-radius: 6px;
     position: relative;
-    top: 30px;
+    top: 20px;
     bottom: 16px;
     left: 45px;
 
@@ -80,39 +87,22 @@ h3 {
 }
 
 .password-input {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    width: inherit;
-    bottom: 10px;
-    right: 45px;
+    margin-top: -25px;
 }
 
 .eye-icon {
     position: absolute;
-    right: 16px;
-    bottom: 5px;
-    top: 48px;
-}
-
-input[type=password] {
-    padding: 15px 108px;
-    margin: 2px 0;
-    box-sizing: border-box;
-    border-radius: 6px;
-    position: relative;
-    right: 5px;
-    top: 30px;
-
+    right: 65px;
+    top: 200px;
 }
 
 ::placeholder {
-    font-size: 16px;
-    color: #b5b3b3;
+    font-family: 'Exo', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    color: #5c5858;
     position: relative;
-    right: 85px;
-    top: 2px;
+    top: 1px;
     font-weight: 100;
 }
 
@@ -122,7 +112,7 @@ input[type=password] {
     margin-top: 50px;
     margin-left: 50px;
     position: relative;
-    bottom: 20px;
+    bottom: 18px;
     border: 2px solid #FFFFFF;
     box-sizing: border-box;
     border-radius: 10px;
@@ -133,8 +123,7 @@ input[type=password] {
     font-size: 14px;
     font-weight: 400;
     position: relative;
-    padding-left: 80px;
-
+    padding-left: 87px;
     bottom: 40px;
 
 }
@@ -143,23 +132,23 @@ input[type=password] {
     font-family: 'Exo', sans-serif;
     font-size: 14px;
     position: relative;
-
-    bottom: 75px;
+    right: 4px;
+    bottom: 74px;
     padding-left: 294px;
     color: #5FE19B;
 }
 
 .login-btn {
-    padding: 10.5px 155px;
-    margin: 2px 0;
-    box-sizing: border-box;
+    height: 48px;
+    width: 362px;
     border-radius: 8px;
+    box-sizing: border-box;
     background-color: #31C37F;
     border-color: #31C37F;
     position: relative;
     left: 48px;
     right: 4px;
-    bottom: 70px;
+    bottom: 67px;
     font-family: 'Exo', sans-serif;
     color: #FFFFFF;
     font-size: 17px;
@@ -174,7 +163,7 @@ input[type=password] {
     font-size: 14px;
     position: relative;
     padding-left: 120px;
-    bottom: 55px;
+    bottom: 50px;
 
 }
 
@@ -183,7 +172,7 @@ input[type=password] {
     font-size: 14px;
     color: #5FE19B;
     position: relative;
-    bottom: 88px;
+    bottom: 83px;
     padding-left: 255px;
 }
 
@@ -220,26 +209,35 @@ input[type=password] {
 
 }
 
-.facebook-btn {
-    display: inline-flex;
-    height: 42px;
 
-    box-sizing: content-box;
-    width: 77%;
+.facebook-btn,
+.twitter-btn,
+.google-btn {
 
+    height: 41.5px;
+    width: 361px;
+    border-radius: 8px;
     background: rgba(0, 0, 0, 0.5);
     border: 2px solid #FFFFFF;
-    border-radius: 5px;
-    position: relative;
-    left: 43px;
-    bottom: 80px;
     color: #FFFFFF;
     font-weight: 600;
     font-size: 18px;
     font-family: 'Exo', sans-serif;
+
+
+}
+
+.facebook-btn {
+    display: inline-flex;
+    box-sizing: content-box;
+    position: relative;
+    left: 43px;
+    bottom: 80px;
+    font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 15px;
+
 }
 
 .facebook-icon {
@@ -249,29 +247,20 @@ input[type=password] {
 .facebook-login-btn {
     position: relative;
     right: 20px;
+
 }
 
 .twitter-btn {
 
     display: inline-flex;
-    height: 42px;
-
     box-sizing: content-box;
-    width: 77%;
-
-    background: rgba(0, 0, 0, 0.5);
-    border: 2px solid #FFFFFF;
-    border-radius: 5px;
     position: relative;
-    left: 40px;
+    left: 43px;
     bottom: 70px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
-    margin-bottom: 10px;
+    margin-bottom: 23px;
+
 }
 
 .twitter-icon {
@@ -285,24 +274,13 @@ input[type=password] {
 
 .google-btn {
     display: inline-flex;
-    height: 42px;
-
     box-sizing: content-box;
-    width: 77%;
-
-    background: rgba(0, 0, 0, 0.5);
-    border: 2px solid #FFFFFF;
-    border-radius: 5px;
     position: relative;
-    left: 40px;
+    left: 43px;
     bottom: 70px;
-    color: #FFFFFF;
-    font-weight: 600;
-    font-size: 18px;
-    font-family: 'Exo', sans-serif;
     justify-content: center;
     align-items: center;
-    margin-top: 10px;
+
 
 }
 
