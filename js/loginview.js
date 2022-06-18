@@ -29,3 +29,4 @@ function togglePasswordVisibility() {
         password.type = "password";
     }
 }
+
