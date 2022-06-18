@@ -10,6 +10,8 @@
 body {
     background-color: #151515;
     overflow: hidden;
+    overflow-y: auto;
+    height: 100px;
 }
 
 
@@ -83,9 +85,6 @@ body {
     bottom: 155px;
     right: 20px;
 }
-
-
-
 
 
 .page-heading {
@@ -298,7 +297,7 @@ body {
     bottom: 858px;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
-    grid-template-rows: 1fr 1fr 1fr minmax(5px, 30px);
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr minmax(5px, 30px);
     width: 80%;
     row-gap: 20px;
     column-gap: 20px;
@@ -310,7 +309,10 @@ body {
 .card-3,
 .card-4,
 .card-5,
-.card-6 {
+.card-6,
+.card-7,
+.card-8,
+.card-9 {
     border-radius: 10px;
     background-color: #2a2a2a;
     height: 314px;
@@ -328,6 +330,8 @@ body {
 .card-9 img {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    width: 363px;
+    height: 178px;
 }
 
 .card1-info,
@@ -335,7 +339,10 @@ body {
 .card3-info,
 .card4-info,
 .card5-info,
-.card6-info {
+.card6-info,
+.card7-info,
+.card8-info,
+.card9-info {
     position: relative;
     top: 15px;
 }
@@ -345,7 +352,10 @@ body {
 #card3-name,
 #card4-name,
 #card5-name,
-#card6-name {
+#card6-name,
+#card7-name,
+#card8-name,
+#card9-name {
     font-family: 'Exo', sans-serif;
     color: var(--neutral-font-color);
     font-weight: 600;
@@ -360,7 +370,10 @@ body {
 #card3-place,
 #card4-place,
 #card5-place,
-#card6-place {
+#card6-place,
+#card7-place,
+#card8-place,
+#card9-place {
     font-family: 'Exo', sans-serif;
     color: var(--secondary-font-color);
     font-weight: 700;
@@ -377,7 +390,10 @@ body {
 #card3-release,
 #card4-release,
 #card5-release,
-#card6-release {
+#card6-release,
+#card7-release,
+#card8-release,
+#card9-release {
     font-family: 'Exo', sans-serif;
     color: var(--secondary-neutral-color);
     font-weight: 500;
@@ -392,7 +408,10 @@ body {
 #card3-realease-date,
 #card4-realease-date,
 #card5-realease-date,
-#card6-realease-date {
+#card6-realease-date,
+#card7-realease-date,
+#card8-realease-date,
+#card9-realease-date {
     font-family: 'Exo', sans-serif;
     color: var(--neutral-font-color);
     font-weight: 400;
@@ -407,7 +426,10 @@ body {
 #card3-genres,
 #card4-genres,
 #card5-genres,
-#card6-genres {
+#card6-genres,
+#card7-genres,
+#card8-genres,
+#card9-genres {
     font-family: 'Exo', sans-serif;
     color: var(--secondary-neutral-color);
     font-weight: 500;
@@ -422,7 +444,10 @@ body {
 #card3-genre-detailed,
 #card4-genre-detailed,
 #card5-genre-detailed,
-#card6-genre-detailed {
+#card6-genre-detailed,
+#card7-genre-detailed,
+#card8-genre-detailed,
+#card9-genre-detailed {
     font-family: 'Exo', sans-serif;
     color: var(--neutral-font-color);
     font-weight: 400;
@@ -432,90 +457,103 @@ body {
     padding-left: 125px;
 }
 
-#card1-playstation-icon,
-#card2-playstation-icon,
-#card4-playstation-icon,
-#card5-playstation-icon,
-#card6-playstation-icon {
+#card1-playstation-icon img,
+#card2-playstation-icon img,
+#card4-playstation-icon img,
+#card5-playstation-icon img,
+#card6-playstation-icon img,
+#card7-playstation-icon img,
+#card8-playstation-icon img,
+#card9-playstation-icon img {
     position: relative;
+    width: 25px;
+    height: 25px;
     bottom: 205px;
     padding-left: 250px;
+
 }
 
-#card1-xbox-icon,
-#card2-xbox-icon,
-#card4-xbox-icon,
-#card6-xbox-icon {
+
+
+
+#card1-xbox-icon img,
+#card2-xbox-icon img,
+#card4-xbox-icon img,
+#card6-xbox-icon img,
+#card7-xbox-icon img,
+#card8-xbox-icon img,
+#card9-xbox-icon img {
     position: relative;
-    bottom: 230px;
+    width: 20px;
+    height: 20px;
+    bottom: 232px;
     padding-left: 290px;
 }
 
-#card5-xbox-icon {
+#card5-xbox-icon img {
     position: relative;
-    bottom: 200px;
-    padding-left: 290px;
-}
-
-#card5-windows-icon {
-    position: relative;
-    bottom: 224px;
-    padding-left: 325px;
-}
-
-#card1-windows-icon,
-#card2-windows-icon,
-#card4-windows-icon,
-#card6-windows-icon {
-    position: relative;
-    bottom: 253px;
-    padding-left: 325px;
-}
-
-#card3-switch-icon {
-    position: relative;
+    width: 20px;
+    height: 20px;
     bottom: 205px;
+    padding-left: 290px;
+}
+
+#card5-windows-icon img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 230px;
+    padding-left: 325px;
+}
+
+#card1-windows-icon img,
+#card2-windows-icon img,
+#card4-windows-icon img,
+#card6-windows-icon img,
+#card7-windows-icon img,
+#card8-windows-icon img,
+#card9-windows-icon img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 257px;
+    padding-left: 325px;
+}
+
+#card3-switch-icon img {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    bottom: 208px;
     padding-left: 328px;
 }
 
-#card1-heart-icon,
-#card2-heart-icon,
-#card4-heart-icon,
-#card6-heart-icon {
+#card1-heart-icon img,
+#card2-heart-icon img,
+#card4-heart-icon img,
+#card6-heart-icon img,
+#card7-heart-icon img,
+#card8-heart-icon img,
+#card9-heart-icon img {
     position: relative;
+    width: 20px;
+    height: 20px;
     bottom: 500px;
     padding-left: 330px;
 }
 
-#card3-heart-icon {
+#card3-heart-icon img {
     position: relative;
-    bottom: 455px;
-    padding-left: 330px;
-
-}
-
-#card5-heart-icon {
-
-    position: relative;
-    bottom: 475px;
-    padding-left: 330px;
-
-}
-
-#card8-heart-icon {
-    position: relative;
-    bottom: 182px;
+    width: 20px;
+    height: 20px;
+    bottom: 450px;
     padding-left: 330px;
 }
 
-#card9-heart-icon {
+#card5-heart-icon img {
     position: relative;
-    bottom: 170px;
-    padding-left: 330px;
-}
-
-#card7-heart-icon {
-    position: relative;
-    bottom: 195px;
+    width: 20px;
+    height: 20px;
+    bottom: 470px;
     padding-left: 330px;
 }
